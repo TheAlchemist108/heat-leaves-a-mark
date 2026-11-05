@@ -1,0 +1,145 @@
+# Met Office-documented heatwave dates for robustness check 7 (PREREGISTRATION.md, Sections 4.3 and 8).
+#
+# Compiled on 5 November 2026, before any outcome data were downloaded.
+#
+# Inclusion rule (applied to every Met Office monthly weather report and seasonal summary
+# for May–September 2022–2026):
+#   An event is listed only if a Met Office report (a) describes it as a heatwave, or says
+#   heatwave conditions or thresholds were met, AND (b) states both its first and last day.
+#   Events the Met Office describes without both dates are not listed and are not dated
+#   from any other source (plan, Section 4.3). They are recorded under `not_listed` so the
+#   omissions are visible.
+#
+# Dates are inclusive, ISO format. `quote` is the Met Office wording that gives the dates.
+
+events:
+  - id: MO2022a
+    start: 2022-07-18
+    end: 2022-07-19
+    area: England, Wales and Scotland
+    quote: "the unprecedented heatwave of the 18th/19th"
+    source: mwr_2022_07
+
+  - id: MO2023a
+    start: 2023-09-04
+    end: 2023-09-10
+    area: UK
+    quote: "From 4th to 10th, the UK experienced a significant heatwave"
+    source: mwr_2023_09
+
+  - id: MO2025a
+    start: 2025-06-16
+    end: 2025-06-21
+    area: England and Wales
+    quote: "high temperatures reached heatwave thresholds for many across England and Wales between the 16th and 21st"
+    source: mwr_2025_06
+
+  - id: MO2025b
+    start: 2025-08-11
+    end: 2025-08-15
+    area: parts of central and eastern England
+    quote: "Heatwave conditions were met in parts of central and eastern England between the 11th and 15th"
+    source: mwr_2025_08
+
+  - id: MO2026a
+    start: 2026-08-10
+    end: 2026-08-14
+    area: southern and eastern England
+    quote: "Heatwave conditions were met across southern and eastern England between the 10th and 14th"
+    source: mwr_2026_08
+
+not_listed:
+  - period: August 2022
+    reason: 'Described as a "hot spell"; breakdown "mid-month"; no first and last day stated.'
+    source: mwr_2022_08
+  - period: June 2023
+    reason: '"Very warm between the 9th and the 25th", but not described as a heatwave.'
+    source: mwr_2023_06
+  - period: June 2024 (23rd–26th), July 2024 (final week), August 2024 (11th–12th)
+    reason: 'Described as hot spells, not heatwaves.'
+    source: mwr_2024_06, mwr_2024_07, mwr_2024_08
+  - period: late June 2025
+    reason: '"another heatwave for some parts of central and eastern England"; no dates stated.'
+    source: mwr_2025_06
+  - period: July 2025 (9th–14th)
+    reason: 'Described as a "hot spell", not a heatwave.'
+    source: mwr_2025_07
+  - period: May 2026
+    reason: 'Heatwave thresholds met; the hot spell "started to take hold on the 21st" but no last day of heatwave conditions is stated.'
+    source: mwr_2026_05
+  - period: June 2026
+    reason: 'Heatwave in the second half of the month; warning dates are given but no first and last day of heatwave conditions.'
+    source: mwr_2026_06, seasonal_summer_2026
+  - period: July 2026
+    reason: 'Heatwave conditions met over "nearly two weeks"; no first and last day stated.'
+    source: mwr_2026_07, seasonal_summer_2026
+
+sources:
+  mwr_2022_07:
+    title: UK monthly climate summary, July 2022
+    url: https://www.metoffice.gov.uk/api/assets/file/uk_monthly_climate_summary_202207pdf?prefix=assets
+    sha256: 1bf4d4b05d3476b0ec47131e41659e5b1f176960513b3dc5626b5304c47c7489
+  mwr_2022_08:
+    title: UK monthly climate summary, August 2022
+    url: https://www.metoffice.gov.uk/api/assets/file/uk_monthly_climate_summary_202208pdf?prefix=assets
+    sha256: 42d5da984fc7908c544ab6b76f65c6ca8d2c8c6ce62b3d8cfedb3ee4376f4bc3
+  seasonal_summer_2022:
+    title: UK climate summary, summer 2022
+    url: https://www.metoffice.gov.uk/api/assets/file/uk_monthly_climate_summary_summer_2022pdf?prefix=assets
+    sha256: 9603e36d289d4fd4108dcbe3b91dde24630a57eb865b4545059fbef0ed1027f9
+  mwr_2023_06:
+    title: Monthly weather report, June 2023
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2023_06_for_printpdf?prefix=assets
+    sha256: 6e595b9f0adda6717ac9e7512cb56f67c8c18891d43f29afb85408d0a3636cbb
+  mwr_2023_09:
+    title: Monthly weather report, September 2023
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2023_09_for_print_v1pdf?prefix=assets
+    sha256: 90a75d176fd3a8febcc00a0cd25fc9e87b27fcb3dbe7a029f3987647a9a00b1d
+  mwr_2024_06:
+    title: Monthly weather report, June 2024
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2024_06_for_print_v1pdf?prefix=assets
+    sha256: d211fe17e3dabb2159a262ac701fd7c27bc7c12d9b2978f5494dd605903c6065
+  mwr_2024_07:
+    title: Monthly weather report, July 2024
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2024_07_for_printpdf?prefix=assets
+    sha256: 77d7bebf2d3a3af64fe41a568dc43967dce0457481dc8ac39166521416582795
+  mwr_2024_08:
+    title: Monthly weather report, August 2024
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2024_08_for_print_v1pdf?prefix=assets
+    sha256: b1c118208497b89deedffc90ba424cffb513ae5209aca5f0d9e2134e86993492
+  mwr_2025_06:
+    title: Monthly weather report, June 2025
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2025_06_for_printpdf?prefix=assets
+    sha256: 1faf9597268108de9247d61243341a8e039a4b1cdc572dffeaf2f39534d61d77
+  mwr_2025_07:
+    title: Monthly weather report, July 2025
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2025_07_for_printpdf?prefix=assets
+    sha256: a4c2ccca536dd137e4ef63ed9eab4dff4fe8d5fb2c6c9426a3d7a091b9761df3
+  mwr_2025_08:
+    title: Monthly weather report, August 2025
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2025_08_for_printpdf?prefix=assets
+    sha256: 29c8120a8f625e236d9bf900f40bf46304a1350ccd43766c59484bd7b4b6c977
+  mwr_2026_05:
+    title: Monthly weather report, May 2026
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2026_05_for_printpdf?prefix=assets
+    sha256: e563a4eb4ee79327271202b3bb7f1e9a63644ae7888b352ae2ca63524b6759be
+  mwr_2026_06:
+    title: Monthly weather report, June 2026
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2026_06_for_printpdf-1.mwr_2026_06_for_printpdf?prefix=assets&prefix=assets
+    sha256: ab0407d342202a99a82f3705062b91f2c24b1194f658743e1f86ab4d4d55534c
+  mwr_2026_07:
+    title: Monthly weather report, July 2026
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2026_07_for_printpdf?prefix=assets&prefix=assets
+    sha256: b76e52024ec3211a4d9c38b6aea8ae4bf82cc03202e914212fc2cdbea5542eaa
+  mwr_2026_08:
+    title: Monthly weather report, August 2026
+    url: https://www.metoffice.gov.uk/api/assets/file/mwr_2026_08_for_printpdf?prefix=assets&prefix=assets
+    sha256: ac8924fd0df53f7a7e4cf72caf4d6c67b8095753b82d3324cc889de0445aca96
+  seasonal_summer_2026:
+    title: Seasonal assessment, summer 2026
+    url: https://www.metoffice.gov.uk/api/assets/file/SeasonalAssessment-Summer26pdf?prefix=assets&prefix=assets
+    sha256: 454e35a8e1326b503d0ea183a8ce40d88157937efb138ea5aca35c286f0d327f
+
+# Also checked, no heatwave with stated dates: September 2022, July and August 2023,
+# September 2024, May and September 2025, September 2026, and the seasonal summaries
+# for summers 2023, 2024 and 2025.
