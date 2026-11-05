@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large or licence-restricted raw data (sources and hashes are in data/MANIFEST.csv)
+data/raw/**/*.nc
+data/raw/**/*.grib
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

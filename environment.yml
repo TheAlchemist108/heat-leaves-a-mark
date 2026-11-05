@@ -1,0 +1,19 @@
+name: heat-leaves-a-mark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.2
+  - scipy=1.13
+  - statsmodels=0.14
+  - xarray=2024.6
+  - netcdf4=1.7
+  - geopandas=1.0
+  - matplotlib=3.9
+  - pyyaml=6.0
+  - requests=2.32
+  - pip
+  - pip:
+      - pyfixest==0.24.2
+      - pytrends==4.9.2
