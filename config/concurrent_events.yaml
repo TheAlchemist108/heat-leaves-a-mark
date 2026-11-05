@@ -1,0 +1,34 @@
+# Concurrent events excluded in robustness check 6 (PREREGISTRATION.md, Section 8).
+# COP windows run from 3 days before the opening to the close, as the plan specifies.
+# All dates inclusive, ISO format. Weeks touching a window are dropped.
+
+cop:
+  - name: COP27 (Sharm el-Sheikh)
+    opening: 2022-11-06
+    close: 2022-11-20
+    window_start: 2022-11-03
+    window_end: 2022-11-20
+  - name: COP28 (Dubai)
+    opening: 2023-11-30
+    close: 2023-12-13
+    window_start: 2023-11-27
+    window_end: 2023-12-13
+  - name: COP29 (Baku)
+    opening: 2024-11-11
+    close: 2024-11-24      # extended beyond the scheduled 22 November close
+    window_start: 2024-11-08
+    window_end: 2024-11-24
+  - name: COP30 (Belém)
+    opening: 2025-11-10
+    close: 2025-11-22      # extended beyond the scheduled 21 November close
+    window_start: 2025-11-07
+    window_end: 2025-11-22
+  # COP31 (November 2026) falls after the sample end (2026-10-31) and is not listed.
+
+other:
+  - name: Death and funeral of Queen Elizabeth II
+    window_start: 2022-09-08
+    window_end: 2022-09-19
+  - name: UK general election (polling day 4 July 2024)
+    window_start: 2024-06-30   # Sunday–Saturday week containing polling day
+    window_end: 2024-07-06
