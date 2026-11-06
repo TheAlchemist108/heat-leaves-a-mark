@@ -1,0 +1,13 @@
+# Fixed population weights for the UK temperature series (PREREGISTRATION.md, Section 4.1).
+# Source: ONS, "Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2024",
+#   table MYE1 (All Persons), file mye24tablesuk.xlsx.
+#   https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+#   SHA-256 of the downloaded file: f78d50e8d77fe5ed9d04667d6875aefcf62b56380af7aceb2e90dce067981526
+# Held fixed for all years.
+
+population:
+  England: 58620101
+  Scotland: 5546900
+  Wales: 3186581
+  Northern Ireland: 1927855
+  # United Kingdom total (for reference): 69281437

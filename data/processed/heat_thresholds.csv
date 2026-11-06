@@ -1,0 +1,16 @@
+series,percentile,threshold_degC
+England,p95,26.235
+England,p90,24.387
+England,p975,27.228
+Scotland,p95,21.641
+Scotland,p90,20.085
+Scotland,p975,22.956
+Wales,p95,24.464
+Wales,p90,22.816
+Wales,p975,25.961
+Northern Ireland,p95,22.812
+Northern Ireland,p90,21.471
+Northern Ireland,p975,23.983
+UK,p95,25.471
+UK,p90,23.833
+UK,p975,26.68
