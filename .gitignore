@@ -11,3 +11,6 @@ data/raw/**/*.grib
 .DS_Store
 .vscode/
 .idea/
+
+# Copernicus API key (never committed)
+.cdsapirc
