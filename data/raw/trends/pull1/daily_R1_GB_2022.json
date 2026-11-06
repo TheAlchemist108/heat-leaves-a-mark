@@ -1,0 +1,6764 @@
+{
+ "job": {
+  "kind": "daily",
+  "request": "R1",
+  "terms": [
+   "dentist",
+   "heatwave",
+   "climate change",
+   "air conditioning",
+   "car insurance"
+  ],
+  "geo": "GB",
+  "window": "2022",
+  "timeframe": "2022-04-01 2022-12-15"
+ },
+ "downloaded_utc": "2026-11-06T15:53:00Z",
+ "response": {
+  "default": {
+   "timelineData": [
+    {
+     "time": "1648771200",
+     "formattedTime": "Apr 1, 2022",
+     "formattedAxisTime": "Apr 1, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1648857600",
+     "formattedTime": "Apr 2, 2022",
+     "formattedAxisTime": "Apr 2, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1648944000",
+     "formattedTime": "Apr 3, 2022",
+     "formattedAxisTime": "Apr 3, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1649030400",
+     "formattedTime": "Apr 4, 2022",
+     "formattedAxisTime": "Apr 4, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1649116800",
+     "formattedTime": "Apr 5, 2022",
+     "formattedAxisTime": "Apr 5, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1649203200",
+     "formattedTime": "Apr 6, 2022",
+     "formattedAxisTime": "Apr 6, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1649289600",
+     "formattedTime": "Apr 7, 2022",
+     "formattedAxisTime": "Apr 7, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1649376000",
+     "formattedTime": "Apr 8, 2022",
+     "formattedAxisTime": "Apr 8, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1649462400",
+     "formattedTime": "Apr 9, 2022",
+     "formattedAxisTime": "Apr 9, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1649548800",
+     "formattedTime": "Apr 10, 2022",
+     "formattedAxisTime": "Apr 10, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1649635200",
+     "formattedTime": "Apr 11, 2022",
+     "formattedAxisTime": "Apr 11, 2022",
+     "value": [
+      7,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1649721600",
+     "formattedTime": "Apr 12, 2022",
+     "formattedAxisTime": "Apr 12, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1649808000",
+     "formattedTime": "Apr 13, 2022",
+     "formattedAxisTime": "Apr 13, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1649894400",
+     "formattedTime": "Apr 14, 2022",
+     "formattedAxisTime": "Apr 14, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1649980800",
+     "formattedTime": "Apr 15, 2022",
+     "formattedAxisTime": "Apr 15, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1650067200",
+     "formattedTime": "Apr 16, 2022",
+     "formattedAxisTime": "Apr 16, 2022",
+     "value": [
+      2,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1650153600",
+     "formattedTime": "Apr 17, 2022",
+     "formattedAxisTime": "Apr 17, 2022",
+     "value": [
+      2,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1650240000",
+     "formattedTime": "Apr 18, 2022",
+     "formattedAxisTime": "Apr 18, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1650326400",
+     "formattedTime": "Apr 19, 2022",
+     "formattedAxisTime": "Apr 19, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1650412800",
+     "formattedTime": "Apr 20, 2022",
+     "formattedAxisTime": "Apr 20, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1650499200",
+     "formattedTime": "Apr 21, 2022",
+     "formattedAxisTime": "Apr 21, 2022",
+     "value": [
+      6,
+      0,
+      4,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "4",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1650585600",
+     "formattedTime": "Apr 22, 2022",
+     "formattedAxisTime": "Apr 22, 2022",
+     "value": [
+      5,
+      0,
+      100,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "100",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1650672000",
+     "formattedTime": "Apr 23, 2022",
+     "formattedAxisTime": "Apr 23, 2022",
+     "value": [
+      3,
+      0,
+      2,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "2",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1650758400",
+     "formattedTime": "Apr 24, 2022",
+     "formattedAxisTime": "Apr 24, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1650844800",
+     "formattedTime": "Apr 25, 2022",
+     "formattedAxisTime": "Apr 25, 2022",
+     "value": [
+      9,
+      0,
+      1,
+      0,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "9",
+      "<1",
+      "1",
+      "<1",
+      "7"
+     ]
+    },
+    {
+     "time": "1650931200",
+     "formattedTime": "Apr 26, 2022",
+     "formattedAxisTime": "Apr 26, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1651017600",
+     "formattedTime": "Apr 27, 2022",
+     "formattedAxisTime": "Apr 27, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "7"
+     ]
+    },
+    {
+     "time": "1651104000",
+     "formattedTime": "Apr 28, 2022",
+     "formattedAxisTime": "Apr 28, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1651190400",
+     "formattedTime": "Apr 29, 2022",
+     "formattedAxisTime": "Apr 29, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1651276800",
+     "formattedTime": "Apr 30, 2022",
+     "formattedAxisTime": "Apr 30, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1651363200",
+     "formattedTime": "May 1, 2022",
+     "formattedAxisTime": "May 1, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1651449600",
+     "formattedTime": "May 2, 2022",
+     "formattedAxisTime": "May 2, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1651536000",
+     "formattedTime": "May 3, 2022",
+     "formattedAxisTime": "May 3, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1651622400",
+     "formattedTime": "May 4, 2022",
+     "formattedAxisTime": "May 4, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1651708800",
+     "formattedTime": "May 5, 2022",
+     "formattedAxisTime": "May 5, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1651795200",
+     "formattedTime": "May 6, 2022",
+     "formattedAxisTime": "May 6, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1651881600",
+     "formattedTime": "May 7, 2022",
+     "formattedAxisTime": "May 7, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1651968000",
+     "formattedTime": "May 8, 2022",
+     "formattedAxisTime": "May 8, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1652054400",
+     "formattedTime": "May 9, 2022",
+     "formattedAxisTime": "May 9, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1652140800",
+     "formattedTime": "May 10, 2022",
+     "formattedAxisTime": "May 10, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1652227200",
+     "formattedTime": "May 11, 2022",
+     "formattedAxisTime": "May 11, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1652313600",
+     "formattedTime": "May 12, 2022",
+     "formattedAxisTime": "May 12, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1652400000",
+     "formattedTime": "May 13, 2022",
+     "formattedAxisTime": "May 13, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1652486400",
+     "formattedTime": "May 14, 2022",
+     "formattedAxisTime": "May 14, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1652572800",
+     "formattedTime": "May 15, 2022",
+     "formattedAxisTime": "May 15, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1652659200",
+     "formattedTime": "May 16, 2022",
+     "formattedAxisTime": "May 16, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1652745600",
+     "formattedTime": "May 17, 2022",
+     "formattedAxisTime": "May 17, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1652832000",
+     "formattedTime": "May 18, 2022",
+     "formattedAxisTime": "May 18, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1652918400",
+     "formattedTime": "May 19, 2022",
+     "formattedAxisTime": "May 19, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653004800",
+     "formattedTime": "May 20, 2022",
+     "formattedAxisTime": "May 20, 2022",
+     "value": [
+      5,
+      1,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653091200",
+     "formattedTime": "May 21, 2022",
+     "formattedAxisTime": "May 21, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653177600",
+     "formattedTime": "May 22, 2022",
+     "formattedAxisTime": "May 22, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1653264000",
+     "formattedTime": "May 23, 2022",
+     "formattedAxisTime": "May 23, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1653350400",
+     "formattedTime": "May 24, 2022",
+     "formattedAxisTime": "May 24, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1653436800",
+     "formattedTime": "May 25, 2022",
+     "formattedAxisTime": "May 25, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1653523200",
+     "formattedTime": "May 26, 2022",
+     "formattedAxisTime": "May 26, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653609600",
+     "formattedTime": "May 27, 2022",
+     "formattedAxisTime": "May 27, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653696000",
+     "formattedTime": "May 28, 2022",
+     "formattedAxisTime": "May 28, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653782400",
+     "formattedTime": "May 29, 2022",
+     "formattedAxisTime": "May 29, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1653868800",
+     "formattedTime": "May 30, 2022",
+     "formattedAxisTime": "May 30, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1653955200",
+     "formattedTime": "May 31, 2022",
+     "formattedAxisTime": "May 31, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1654041600",
+     "formattedTime": "Jun 1, 2022",
+     "formattedAxisTime": "Jun 1, 2022",
+     "value": [
+      5,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1654128000",
+     "formattedTime": "Jun 2, 2022",
+     "formattedAxisTime": "Jun 2, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1654214400",
+     "formattedTime": "Jun 3, 2022",
+     "formattedAxisTime": "Jun 3, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1654300800",
+     "formattedTime": "Jun 4, 2022",
+     "formattedAxisTime": "Jun 4, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1654387200",
+     "formattedTime": "Jun 5, 2022",
+     "formattedAxisTime": "Jun 5, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1654473600",
+     "formattedTime": "Jun 6, 2022",
+     "formattedAxisTime": "Jun 6, 2022",
+     "value": [
+      8,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "8",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1654560000",
+     "formattedTime": "Jun 7, 2022",
+     "formattedAxisTime": "Jun 7, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1654646400",
+     "formattedTime": "Jun 8, 2022",
+     "formattedAxisTime": "Jun 8, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1654732800",
+     "formattedTime": "Jun 9, 2022",
+     "formattedAxisTime": "Jun 9, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1654819200",
+     "formattedTime": "Jun 10, 2022",
+     "formattedAxisTime": "Jun 10, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1654905600",
+     "formattedTime": "Jun 11, 2022",
+     "formattedAxisTime": "Jun 11, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1654992000",
+     "formattedTime": "Jun 12, 2022",
+     "formattedAxisTime": "Jun 12, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1655078400",
+     "formattedTime": "Jun 13, 2022",
+     "formattedAxisTime": "Jun 13, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1655164800",
+     "formattedTime": "Jun 14, 2022",
+     "formattedAxisTime": "Jun 14, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1655251200",
+     "formattedTime": "Jun 15, 2022",
+     "formattedAxisTime": "Jun 15, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1655337600",
+     "formattedTime": "Jun 16, 2022",
+     "formattedAxisTime": "Jun 16, 2022",
+     "value": [
+      5,
+      1,
+      1,
+      2,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "1",
+      "2",
+      "5"
+     ]
+    },
+    {
+     "time": "1655424000",
+     "formattedTime": "Jun 17, 2022",
+     "formattedAxisTime": "Jun 17, 2022",
+     "value": [
+      5,
+      1,
+      1,
+      2,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "1",
+      "2",
+      "5"
+     ]
+    },
+    {
+     "time": "1655510400",
+     "formattedTime": "Jun 18, 2022",
+     "formattedAxisTime": "Jun 18, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1655596800",
+     "formattedTime": "Jun 19, 2022",
+     "formattedAxisTime": "Jun 19, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1655683200",
+     "formattedTime": "Jun 20, 2022",
+     "formattedAxisTime": "Jun 20, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1655769600",
+     "formattedTime": "Jun 21, 2022",
+     "formattedAxisTime": "Jun 21, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1655856000",
+     "formattedTime": "Jun 22, 2022",
+     "formattedAxisTime": "Jun 22, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1655942400",
+     "formattedTime": "Jun 23, 2022",
+     "formattedAxisTime": "Jun 23, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656028800",
+     "formattedTime": "Jun 24, 2022",
+     "formattedAxisTime": "Jun 24, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1656115200",
+     "formattedTime": "Jun 25, 2022",
+     "formattedAxisTime": "Jun 25, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1656201600",
+     "formattedTime": "Jun 26, 2022",
+     "formattedAxisTime": "Jun 26, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1656288000",
+     "formattedTime": "Jun 27, 2022",
+     "formattedAxisTime": "Jun 27, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656374400",
+     "formattedTime": "Jun 28, 2022",
+     "formattedAxisTime": "Jun 28, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656460800",
+     "formattedTime": "Jun 29, 2022",
+     "formattedAxisTime": "Jun 29, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656547200",
+     "formattedTime": "Jun 30, 2022",
+     "formattedAxisTime": "Jun 30, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656633600",
+     "formattedTime": "Jul 1, 2022",
+     "formattedAxisTime": "Jul 1, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656720000",
+     "formattedTime": "Jul 2, 2022",
+     "formattedAxisTime": "Jul 2, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1656806400",
+     "formattedTime": "Jul 3, 2022",
+     "formattedAxisTime": "Jul 3, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1656892800",
+     "formattedTime": "Jul 4, 2022",
+     "formattedAxisTime": "Jul 4, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1656979200",
+     "formattedTime": "Jul 5, 2022",
+     "formattedAxisTime": "Jul 5, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1657065600",
+     "formattedTime": "Jul 6, 2022",
+     "formattedAxisTime": "Jul 6, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1657152000",
+     "formattedTime": "Jul 7, 2022",
+     "formattedAxisTime": "Jul 7, 2022",
+     "value": [
+      5,
+      1,
+      1,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1657238400",
+     "formattedTime": "Jul 8, 2022",
+     "formattedAxisTime": "Jul 8, 2022",
+     "value": [
+      5,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1657324800",
+     "formattedTime": "Jul 9, 2022",
+     "formattedAxisTime": "Jul 9, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1657411200",
+     "formattedTime": "Jul 10, 2022",
+     "formattedAxisTime": "Jul 10, 2022",
+     "value": [
+      2,
+      2,
+      0,
+      3,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "2",
+      "<1",
+      "3",
+      "5"
+     ]
+    },
+    {
+     "time": "1657497600",
+     "formattedTime": "Jul 11, 2022",
+     "formattedAxisTime": "Jul 11, 2022",
+     "value": [
+      7,
+      3,
+      1,
+      5,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "3",
+      "1",
+      "5",
+      "6"
+     ]
+    },
+    {
+     "time": "1657584000",
+     "formattedTime": "Jul 12, 2022",
+     "formattedAxisTime": "Jul 12, 2022",
+     "value": [
+      5,
+      3,
+      1,
+      5,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "3",
+      "1",
+      "5",
+      "6"
+     ]
+    },
+    {
+     "time": "1657670400",
+     "formattedTime": "Jul 13, 2022",
+     "formattedAxisTime": "Jul 13, 2022",
+     "value": [
+      5,
+      3,
+      1,
+      3,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "3",
+      "1",
+      "3",
+      "6"
+     ]
+    },
+    {
+     "time": "1657756800",
+     "formattedTime": "Jul 14, 2022",
+     "formattedAxisTime": "Jul 14, 2022",
+     "value": [
+      6,
+      3,
+      1,
+      2,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "3",
+      "1",
+      "2",
+      "6"
+     ]
+    },
+    {
+     "time": "1657843200",
+     "formattedTime": "Jul 15, 2022",
+     "formattedAxisTime": "Jul 15, 2022",
+     "value": [
+      5,
+      7,
+      1,
+      3,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "7",
+      "1",
+      "3",
+      "5"
+     ]
+    },
+    {
+     "time": "1657929600",
+     "formattedTime": "Jul 16, 2022",
+     "formattedAxisTime": "Jul 16, 2022",
+     "value": [
+      3,
+      8,
+      1,
+      4,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "8",
+      "1",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "time": "1658016000",
+     "formattedTime": "Jul 17, 2022",
+     "formattedAxisTime": "Jul 17, 2022",
+     "value": [
+      2,
+      13,
+      1,
+      5,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "13",
+      "1",
+      "5",
+      "5"
+     ]
+    },
+    {
+     "time": "1658102400",
+     "formattedTime": "Jul 18, 2022",
+     "formattedAxisTime": "Jul 18, 2022",
+     "value": [
+      6,
+      17,
+      1,
+      9,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "17",
+      "1",
+      "9",
+      "6"
+     ]
+    },
+    {
+     "time": "1658188800",
+     "formattedTime": "Jul 19, 2022",
+     "formattedAxisTime": "Jul 19, 2022",
+     "value": [
+      5,
+      13,
+      2,
+      13,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "13",
+      "2",
+      "13",
+      "5"
+     ]
+    },
+    {
+     "time": "1658275200",
+     "formattedTime": "Jul 20, 2022",
+     "formattedAxisTime": "Jul 20, 2022",
+     "value": [
+      5,
+      4,
+      1,
+      4,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "4",
+      "1",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "time": "1658361600",
+     "formattedTime": "Jul 21, 2022",
+     "formattedAxisTime": "Jul 21, 2022",
+     "value": [
+      6,
+      2,
+      1,
+      2,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "2",
+      "1",
+      "2",
+      "6"
+     ]
+    },
+    {
+     "time": "1658448000",
+     "formattedTime": "Jul 22, 2022",
+     "formattedAxisTime": "Jul 22, 2022",
+     "value": [
+      5,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1658534400",
+     "formattedTime": "Jul 23, 2022",
+     "formattedAxisTime": "Jul 23, 2022",
+     "value": [
+      3,
+      2,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "2",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1658620800",
+     "formattedTime": "Jul 24, 2022",
+     "formattedAxisTime": "Jul 24, 2022",
+     "value": [
+      3,
+      2,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "2",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1658707200",
+     "formattedTime": "Jul 25, 2022",
+     "formattedAxisTime": "Jul 25, 2022",
+     "value": [
+      7,
+      2,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "2",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1658793600",
+     "formattedTime": "Jul 26, 2022",
+     "formattedAxisTime": "Jul 26, 2022",
+     "value": [
+      6,
+      2,
+      1,
+      1,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "2",
+      "1",
+      "1",
+      "7"
+     ]
+    },
+    {
+     "time": "1658880000",
+     "formattedTime": "Jul 27, 2022",
+     "formattedAxisTime": "Jul 27, 2022",
+     "value": [
+      6,
+      2,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "2",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1658966400",
+     "formattedTime": "Jul 28, 2022",
+     "formattedAxisTime": "Jul 28, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1659052800",
+     "formattedTime": "Jul 29, 2022",
+     "formattedAxisTime": "Jul 29, 2022",
+     "value": [
+      5,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1659139200",
+     "formattedTime": "Jul 30, 2022",
+     "formattedAxisTime": "Jul 30, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1659225600",
+     "formattedTime": "Jul 31, 2022",
+     "formattedAxisTime": "Jul 31, 2022",
+     "value": [
+      2,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1659312000",
+     "formattedTime": "Aug 1, 2022",
+     "formattedAxisTime": "Aug 1, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      1,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "1",
+      "7"
+     ]
+    },
+    {
+     "time": "1659398400",
+     "formattedTime": "Aug 2, 2022",
+     "formattedAxisTime": "Aug 2, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1659484800",
+     "formattedTime": "Aug 3, 2022",
+     "formattedAxisTime": "Aug 3, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1659571200",
+     "formattedTime": "Aug 4, 2022",
+     "formattedAxisTime": "Aug 4, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1659657600",
+     "formattedTime": "Aug 5, 2022",
+     "formattedAxisTime": "Aug 5, 2022",
+     "value": [
+      5,
+      1,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1659744000",
+     "formattedTime": "Aug 6, 2022",
+     "formattedAxisTime": "Aug 6, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1659830400",
+     "formattedTime": "Aug 7, 2022",
+     "formattedAxisTime": "Aug 7, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      2,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "2",
+      "5"
+     ]
+    },
+    {
+     "time": "1659916800",
+     "formattedTime": "Aug 8, 2022",
+     "formattedAxisTime": "Aug 8, 2022",
+     "value": [
+      9,
+      1,
+      0,
+      2,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "9",
+      "1",
+      "<1",
+      "2",
+      "7"
+     ]
+    },
+    {
+     "time": "1660003200",
+     "formattedTime": "Aug 9, 2022",
+     "formattedAxisTime": "Aug 9, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      2,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "2",
+      "6"
+     ]
+    },
+    {
+     "time": "1660089600",
+     "formattedTime": "Aug 10, 2022",
+     "formattedAxisTime": "Aug 10, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      3,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "3",
+      "6"
+     ]
+    },
+    {
+     "time": "1660176000",
+     "formattedTime": "Aug 11, 2022",
+     "formattedAxisTime": "Aug 11, 2022",
+     "value": [
+      6,
+      2,
+      1,
+      4,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "2",
+      "1",
+      "4",
+      "6"
+     ]
+    },
+    {
+     "time": "1660262400",
+     "formattedTime": "Aug 12, 2022",
+     "formattedAxisTime": "Aug 12, 2022",
+     "value": [
+      5,
+      2,
+      1,
+      4,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "2",
+      "1",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "time": "1660348800",
+     "formattedTime": "Aug 13, 2022",
+     "formattedAxisTime": "Aug 13, 2022",
+     "value": [
+      3,
+      3,
+      1,
+      5,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "3",
+      "1",
+      "5",
+      "5"
+     ]
+    },
+    {
+     "time": "1660435200",
+     "formattedTime": "Aug 14, 2022",
+     "formattedAxisTime": "Aug 14, 2022",
+     "value": [
+      3,
+      3,
+      1,
+      4,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "3",
+      "1",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "time": "1660521600",
+     "formattedTime": "Aug 15, 2022",
+     "formattedAxisTime": "Aug 15, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      2,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "2",
+      "7"
+     ]
+    },
+    {
+     "time": "1660608000",
+     "formattedTime": "Aug 16, 2022",
+     "formattedAxisTime": "Aug 16, 2022",
+     "value": [
+      6,
+      1,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1660694400",
+     "formattedTime": "Aug 17, 2022",
+     "formattedAxisTime": "Aug 17, 2022",
+     "value": [
+      6,
+      1,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1660780800",
+     "formattedTime": "Aug 18, 2022",
+     "formattedAxisTime": "Aug 18, 2022",
+     "value": [
+      6,
+      1,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1660867200",
+     "formattedTime": "Aug 19, 2022",
+     "formattedAxisTime": "Aug 19, 2022",
+     "value": [
+      5,
+      1,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1660953600",
+     "formattedTime": "Aug 20, 2022",
+     "formattedAxisTime": "Aug 20, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1661040000",
+     "formattedTime": "Aug 21, 2022",
+     "formattedAxisTime": "Aug 21, 2022",
+     "value": [
+      3,
+      1,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1661126400",
+     "formattedTime": "Aug 22, 2022",
+     "formattedAxisTime": "Aug 22, 2022",
+     "value": [
+      7,
+      1,
+      1,
+      1,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "1",
+      "1",
+      "1",
+      "7"
+     ]
+    },
+    {
+     "time": "1661212800",
+     "formattedTime": "Aug 23, 2022",
+     "formattedAxisTime": "Aug 23, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1661299200",
+     "formattedTime": "Aug 24, 2022",
+     "formattedAxisTime": "Aug 24, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1661385600",
+     "formattedTime": "Aug 25, 2022",
+     "formattedAxisTime": "Aug 25, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1661472000",
+     "formattedTime": "Aug 26, 2022",
+     "formattedAxisTime": "Aug 26, 2022",
+     "value": [
+      5,
+      0,
+      0,
+      1,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "<1",
+      "1",
+      "5"
+     ]
+    },
+    {
+     "time": "1661558400",
+     "formattedTime": "Aug 27, 2022",
+     "formattedAxisTime": "Aug 27, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1661644800",
+     "formattedTime": "Aug 28, 2022",
+     "formattedAxisTime": "Aug 28, 2022",
+     "value": [
+      2,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1661731200",
+     "formattedTime": "Aug 29, 2022",
+     "formattedAxisTime": "Aug 29, 2022",
+     "value": [
+      4,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "4",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1661817600",
+     "formattedTime": "Aug 30, 2022",
+     "formattedAxisTime": "Aug 30, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      1,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "1",
+      "7"
+     ]
+    },
+    {
+     "time": "1661904000",
+     "formattedTime": "Aug 31, 2022",
+     "formattedAxisTime": "Aug 31, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1661990400",
+     "formattedTime": "Sep 1, 2022",
+     "formattedAxisTime": "Sep 1, 2022",
+     "value": [
+      6,
+      0,
+      0,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "<1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1662076800",
+     "formattedTime": "Sep 2, 2022",
+     "formattedAxisTime": "Sep 2, 2022",
+     "value": [
+      5,
+      0,
+      0,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "<1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1662163200",
+     "formattedTime": "Sep 3, 2022",
+     "formattedAxisTime": "Sep 3, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1662249600",
+     "formattedTime": "Sep 4, 2022",
+     "formattedAxisTime": "Sep 4, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1662336000",
+     "formattedTime": "Sep 5, 2022",
+     "formattedAxisTime": "Sep 5, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      1,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "1",
+      "6"
+     ]
+    },
+    {
+     "time": "1662422400",
+     "formattedTime": "Sep 6, 2022",
+     "formattedAxisTime": "Sep 6, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1662508800",
+     "formattedTime": "Sep 7, 2022",
+     "formattedAxisTime": "Sep 7, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1662595200",
+     "formattedTime": "Sep 8, 2022",
+     "formattedAxisTime": "Sep 8, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1662681600",
+     "formattedTime": "Sep 9, 2022",
+     "formattedAxisTime": "Sep 9, 2022",
+     "value": [
+      5,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1662768000",
+     "formattedTime": "Sep 10, 2022",
+     "formattedAxisTime": "Sep 10, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1662854400",
+     "formattedTime": "Sep 11, 2022",
+     "formattedAxisTime": "Sep 11, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1662940800",
+     "formattedTime": "Sep 12, 2022",
+     "formattedAxisTime": "Sep 12, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      7
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "7"
+     ]
+    },
+    {
+     "time": "1663027200",
+     "formattedTime": "Sep 13, 2022",
+     "formattedAxisTime": "Sep 13, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663113600",
+     "formattedTime": "Sep 14, 2022",
+     "formattedAxisTime": "Sep 14, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663200000",
+     "formattedTime": "Sep 15, 2022",
+     "formattedAxisTime": "Sep 15, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663286400",
+     "formattedTime": "Sep 16, 2022",
+     "formattedAxisTime": "Sep 16, 2022",
+     "value": [
+      5,
+      0,
+      0,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "<1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663372800",
+     "formattedTime": "Sep 17, 2022",
+     "formattedAxisTime": "Sep 17, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1663459200",
+     "formattedTime": "Sep 18, 2022",
+     "formattedAxisTime": "Sep 18, 2022",
+     "value": [
+      2,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1663545600",
+     "formattedTime": "Sep 19, 2022",
+     "formattedAxisTime": "Sep 19, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1663632000",
+     "formattedTime": "Sep 20, 2022",
+     "formattedAxisTime": "Sep 20, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663718400",
+     "formattedTime": "Sep 21, 2022",
+     "formattedAxisTime": "Sep 21, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663804800",
+     "formattedTime": "Sep 22, 2022",
+     "formattedAxisTime": "Sep 22, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1663891200",
+     "formattedTime": "Sep 23, 2022",
+     "formattedAxisTime": "Sep 23, 2022",
+     "value": [
+      5,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1663977600",
+     "formattedTime": "Sep 24, 2022",
+     "formattedAxisTime": "Sep 24, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1664064000",
+     "formattedTime": "Sep 25, 2022",
+     "formattedAxisTime": "Sep 25, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1664150400",
+     "formattedTime": "Sep 26, 2022",
+     "formattedAxisTime": "Sep 26, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664236800",
+     "formattedTime": "Sep 27, 2022",
+     "formattedAxisTime": "Sep 27, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664323200",
+     "formattedTime": "Sep 28, 2022",
+     "formattedAxisTime": "Sep 28, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664409600",
+     "formattedTime": "Sep 29, 2022",
+     "formattedAxisTime": "Sep 29, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664496000",
+     "formattedTime": "Sep 30, 2022",
+     "formattedAxisTime": "Sep 30, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664582400",
+     "formattedTime": "Oct 1, 2022",
+     "formattedAxisTime": "Oct 1, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1664668800",
+     "formattedTime": "Oct 2, 2022",
+     "formattedAxisTime": "Oct 2, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1664755200",
+     "formattedTime": "Oct 3, 2022",
+     "formattedAxisTime": "Oct 3, 2022",
+     "value": [
+      8,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "8",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664841600",
+     "formattedTime": "Oct 4, 2022",
+     "formattedAxisTime": "Oct 4, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1664928000",
+     "formattedTime": "Oct 5, 2022",
+     "formattedAxisTime": "Oct 5, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1665014400",
+     "formattedTime": "Oct 6, 2022",
+     "formattedAxisTime": "Oct 6, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1665100800",
+     "formattedTime": "Oct 7, 2022",
+     "formattedAxisTime": "Oct 7, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1665187200",
+     "formattedTime": "Oct 8, 2022",
+     "formattedAxisTime": "Oct 8, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1665273600",
+     "formattedTime": "Oct 9, 2022",
+     "formattedAxisTime": "Oct 9, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1665360000",
+     "formattedTime": "Oct 10, 2022",
+     "formattedAxisTime": "Oct 10, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1665446400",
+     "formattedTime": "Oct 11, 2022",
+     "formattedAxisTime": "Oct 11, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1665532800",
+     "formattedTime": "Oct 12, 2022",
+     "formattedAxisTime": "Oct 12, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1665619200",
+     "formattedTime": "Oct 13, 2022",
+     "formattedAxisTime": "Oct 13, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1665705600",
+     "formattedTime": "Oct 14, 2022",
+     "formattedAxisTime": "Oct 14, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1665792000",
+     "formattedTime": "Oct 15, 2022",
+     "formattedAxisTime": "Oct 15, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1665878400",
+     "formattedTime": "Oct 16, 2022",
+     "formattedAxisTime": "Oct 16, 2022",
+     "value": [
+      2,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1665964800",
+     "formattedTime": "Oct 17, 2022",
+     "formattedAxisTime": "Oct 17, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1666051200",
+     "formattedTime": "Oct 18, 2022",
+     "formattedAxisTime": "Oct 18, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1666137600",
+     "formattedTime": "Oct 19, 2022",
+     "formattedAxisTime": "Oct 19, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666224000",
+     "formattedTime": "Oct 20, 2022",
+     "formattedAxisTime": "Oct 20, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666310400",
+     "formattedTime": "Oct 21, 2022",
+     "formattedAxisTime": "Oct 21, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666396800",
+     "formattedTime": "Oct 22, 2022",
+     "formattedAxisTime": "Oct 22, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666483200",
+     "formattedTime": "Oct 23, 2022",
+     "formattedAxisTime": "Oct 23, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1666569600",
+     "formattedTime": "Oct 24, 2022",
+     "formattedAxisTime": "Oct 24, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1666656000",
+     "formattedTime": "Oct 25, 2022",
+     "formattedAxisTime": "Oct 25, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666742400",
+     "formattedTime": "Oct 26, 2022",
+     "formattedAxisTime": "Oct 26, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666828800",
+     "formattedTime": "Oct 27, 2022",
+     "formattedAxisTime": "Oct 27, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1666915200",
+     "formattedTime": "Oct 28, 2022",
+     "formattedAxisTime": "Oct 28, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667001600",
+     "formattedTime": "Oct 29, 2022",
+     "formattedAxisTime": "Oct 29, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667088000",
+     "formattedTime": "Oct 30, 2022",
+     "formattedAxisTime": "Oct 30, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1667174400",
+     "formattedTime": "Oct 31, 2022",
+     "formattedAxisTime": "Oct 31, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1667260800",
+     "formattedTime": "Nov 1, 2022",
+     "formattedAxisTime": "Nov 1, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667347200",
+     "formattedTime": "Nov 2, 2022",
+     "formattedAxisTime": "Nov 2, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667433600",
+     "formattedTime": "Nov 3, 2022",
+     "formattedAxisTime": "Nov 3, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "0",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667520000",
+     "formattedTime": "Nov 4, 2022",
+     "formattedAxisTime": "Nov 4, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667606400",
+     "formattedTime": "Nov 5, 2022",
+     "formattedAxisTime": "Nov 5, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667692800",
+     "formattedTime": "Nov 6, 2022",
+     "formattedAxisTime": "Nov 6, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1667779200",
+     "formattedTime": "Nov 7, 2022",
+     "formattedAxisTime": "Nov 7, 2022",
+     "value": [
+      7,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "7",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1667865600",
+     "formattedTime": "Nov 8, 2022",
+     "formattedAxisTime": "Nov 8, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1667952000",
+     "formattedTime": "Nov 9, 2022",
+     "formattedAxisTime": "Nov 9, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668038400",
+     "formattedTime": "Nov 10, 2022",
+     "formattedAxisTime": "Nov 10, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668124800",
+     "formattedTime": "Nov 11, 2022",
+     "formattedAxisTime": "Nov 11, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668211200",
+     "formattedTime": "Nov 12, 2022",
+     "formattedAxisTime": "Nov 12, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1668297600",
+     "formattedTime": "Nov 13, 2022",
+     "formattedAxisTime": "Nov 13, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1668384000",
+     "formattedTime": "Nov 14, 2022",
+     "formattedAxisTime": "Nov 14, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      6
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "6"
+     ]
+    },
+    {
+     "time": "1668470400",
+     "formattedTime": "Nov 15, 2022",
+     "formattedAxisTime": "Nov 15, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668556800",
+     "formattedTime": "Nov 16, 2022",
+     "formattedAxisTime": "Nov 16, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668643200",
+     "formattedTime": "Nov 17, 2022",
+     "formattedAxisTime": "Nov 17, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668729600",
+     "formattedTime": "Nov 18, 2022",
+     "formattedAxisTime": "Nov 18, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1668816000",
+     "formattedTime": "Nov 19, 2022",
+     "formattedAxisTime": "Nov 19, 2022",
+     "value": [
+      3,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1668902400",
+     "formattedTime": "Nov 20, 2022",
+     "formattedAxisTime": "Nov 20, 2022",
+     "value": [
+      2,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1668988800",
+     "formattedTime": "Nov 21, 2022",
+     "formattedAxisTime": "Nov 21, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669075200",
+     "formattedTime": "Nov 22, 2022",
+     "formattedAxisTime": "Nov 22, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669161600",
+     "formattedTime": "Nov 23, 2022",
+     "formattedAxisTime": "Nov 23, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669248000",
+     "formattedTime": "Nov 24, 2022",
+     "formattedAxisTime": "Nov 24, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1669334400",
+     "formattedTime": "Nov 25, 2022",
+     "formattedAxisTime": "Nov 25, 2022",
+     "value": [
+      4,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "4",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1669420800",
+     "formattedTime": "Nov 26, 2022",
+     "formattedAxisTime": "Nov 26, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1669507200",
+     "formattedTime": "Nov 27, 2022",
+     "formattedAxisTime": "Nov 27, 2022",
+     "value": [
+      2,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1669593600",
+     "formattedTime": "Nov 28, 2022",
+     "formattedAxisTime": "Nov 28, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669680000",
+     "formattedTime": "Nov 29, 2022",
+     "formattedAxisTime": "Nov 29, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669766400",
+     "formattedTime": "Nov 30, 2022",
+     "formattedAxisTime": "Nov 30, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "0",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669852800",
+     "formattedTime": "Dec 1, 2022",
+     "formattedAxisTime": "Dec 1, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1669939200",
+     "formattedTime": "Dec 2, 2022",
+     "formattedAxisTime": "Dec 2, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670025600",
+     "formattedTime": "Dec 3, 2022",
+     "formattedAxisTime": "Dec 3, 2022",
+     "value": [
+      3,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "3",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1670112000",
+     "formattedTime": "Dec 4, 2022",
+     "formattedAxisTime": "Dec 4, 2022",
+     "value": [
+      2,
+      0,
+      1,
+      0,
+      3
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "1",
+      "<1",
+      "3"
+     ]
+    },
+    {
+     "time": "1670198400",
+     "formattedTime": "Dec 5, 2022",
+     "formattedAxisTime": "Dec 5, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670284800",
+     "formattedTime": "Dec 6, 2022",
+     "formattedAxisTime": "Dec 6, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670371200",
+     "formattedTime": "Dec 7, 2022",
+     "formattedAxisTime": "Dec 7, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670457600",
+     "formattedTime": "Dec 8, 2022",
+     "formattedAxisTime": "Dec 8, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670544000",
+     "formattedTime": "Dec 9, 2022",
+     "formattedAxisTime": "Dec 9, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1670630400",
+     "formattedTime": "Dec 10, 2022",
+     "formattedAxisTime": "Dec 10, 2022",
+     "value": [
+      2,
+      0,
+      0,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "<1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1670716800",
+     "formattedTime": "Dec 11, 2022",
+     "formattedAxisTime": "Dec 11, 2022",
+     "value": [
+      2,
+      0,
+      1,
+      0,
+      4
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "2",
+      "<1",
+      "1",
+      "<1",
+      "4"
+     ]
+    },
+    {
+     "time": "1670803200",
+     "formattedTime": "Dec 12, 2022",
+     "formattedAxisTime": "Dec 12, 2022",
+     "value": [
+      6,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "6",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670889600",
+     "formattedTime": "Dec 13, 2022",
+     "formattedAxisTime": "Dec 13, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1670976000",
+     "formattedTime": "Dec 14, 2022",
+     "formattedAxisTime": "Dec 14, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    },
+    {
+     "time": "1671062400",
+     "formattedTime": "Dec 15, 2022",
+     "formattedAxisTime": "Dec 15, 2022",
+     "value": [
+      5,
+      0,
+      1,
+      0,
+      5
+     ],
+     "hasData": [
+      true,
+      true,
+      true,
+      true,
+      true
+     ],
+     "formattedValue": [
+      "5",
+      "<1",
+      "1",
+      "<1",
+      "5"
+     ]
+    }
+   ],
+   "averages": [
+    5,
+    1,
+    1,
+    1,
+    5
+   ]
+  }
+ }
+}
