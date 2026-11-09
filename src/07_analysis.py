@@ -81,6 +81,20 @@ def lincomb(m, names):
     return est, se
 
 
+def lincomb_w(m, weights):
+    w = np.zeros(len(m.params))
+    for n, v in weights.items():
+        w[list(m.params.index).index(n)] += v
+    return float(w @ m.params.values), float(np.sqrt(w @ m.cov_params().values @ w))
+
+
+def rel_weights(names):
+    """Mean of names minus the binned pre-period b-4 (docs/DEVIATIONS.md, entry 4; exploratory)."""
+    w = {n: 1 / len(names) for n in names}
+    w["b-4"] = w.get("b-4", 0) - 1.0
+    return w
+
+
 def fast_coef(y, X, F, names_sets):
     d = pd.concat([y.rename("y"), X, F], axis=1).dropna()
     A = d.drop(columns="y").values
@@ -303,7 +317,13 @@ def main(proc, cfg, res, n_draws=2000):
         wald = m_a.wald_test("b-4 = 0, b-3 = 0, b-2 = 0", scalar=True)
         betas = np.array([m_b.params[f"b{k}"] for k in range(13)])
         hl, A, at_b = half_life(betas)
+        dr_, dr_se = lincomb_w(m_b, rel_weights(DECAY))
+        rr_, rr_se = lincomb_w(m_b, rel_weights(RESIDUE))
         a1.append({"outcome": name, "n_weeks": int(m_a.nobs), "impact": imp, "impact_se": imp_se,
+                   "decay_vs_baseline": dr_, "decay_vs_baseline_se": dr_se,
+                   "decay_vs_baseline_p": pz(dr_, dr_se), "decay_vs_baseline_tost_p": tost(dr_, dr_se),
+                   "residue_vs_baseline": rr_, "residue_vs_baseline_se": rr_se,
+                   "residue_vs_baseline_p": pz(rr_, rr_se), "residue_vs_baseline_tost_p": tost(rr_, rr_se),
                    "impact_p": pz(imp, imp_se), "decay": dec, "decay_se": dec_se, "decay_p": pz(dec, dec_se),
                    "decay_tost_p": tost(dec, dec_se), "residue": resd, "residue_se": res_se,
                    "residue_p": pz(resd, res_se), "residue_tost_p": tost(resd, res_se),
@@ -321,7 +341,7 @@ def main(proc, cfg, res, n_draws=2000):
            or n.startswith("wiki_") or n == "anchor_dentist_minus_plumber"]
     n_on = len(insample)
     draws = [sorted(rng.choice(len(pool), size=n_on, replace=False)) for _ in range(n_draws)]
-    ri = {n: {"impact": [], "decay": [], "residue": []} for n in key}
+    ri = {n: {"impact": [], "decay": [], "residue": [], "decay_vs_baseline": [], "residue_vs_baseline": []} for n in key}
     band_out = [n for n in key if n.startswith("trends_") or n == "term_heatwave"]
     band = {n: [] for n in band_out}
     allk = [[f"b{k}"] for k in KS]
@@ -329,8 +349,9 @@ def main(proc, cfg, res, n_draws=2000):
         fake = [pool[i] for i in dr]
         Xf = event_matrix(fake)
         for n in key:
-            i_, d_, r_ = fast_coef(outcomes[n], Xf, F_for(n), [IMPACT, DECAY, RESIDUE])
+            i_, d_, r_, b4_ = fast_coef(outcomes[n], Xf, F_for(n), [IMPACT, DECAY, RESIDUE, ["b-4"]])
             ri[n]["impact"].append(i_); ri[n]["decay"].append(d_); ri[n]["residue"].append(r_)
+            ri[n]["decay_vs_baseline"].append(d_ - b4_); ri[n]["residue_vs_baseline"].append(r_ - b4_)
             if n in band:
                 band[n].append(fast_coef(outcomes[n], Xf, F_for(n), allk))
     bq = []
@@ -341,7 +362,7 @@ def main(proc, cfg, res, n_draws=2000):
                        "q975": np.percentile(arr[:, j], 97.5), "sd": arr[:, j].std(ddof=1)})
     pd.DataFrame(bq).to_csv(res / "placebo_beta_bands.csv", index=False)
     for n in key:
-        for est in ["impact", "decay", "residue"]:
+        for est in ["impact", "decay", "residue", "decay_vs_baseline", "residue_vs_baseline"]:
             arr = np.array(ri[n][est])
             a1.loc[n, f"{est}_ri_p"] = float((1 + np.sum(np.abs(arr) >= abs(a1.loc[n, est]))) / (1 + len(arr)))
             a1.loc[n, f"{est}_mde"] = float(2.8 * arr.std(ddof=1))
@@ -629,6 +650,18 @@ def main(proc, cfg, res, n_draws=2000):
         h["result_calibrated"] = labels_c
         hyp_all.append(h)
     hyp = pd.concat(hyp_all)
+    # exploratory, post hoc (docs/DEVIATIONS.md, entry 4): decay and residue relative to normal levels
+    ex = []
+    for n in [k for k in a1.index if k.startswith("trends_") or k.startswith("wiki_")]:
+        for est in ["decay_vs_baseline", "residue_vs_baseline"]:
+            e_, se_ = a1.loc[n, est], a1.loc[n, f"{est}_se"]
+            se_c = max(se_, a1.loc[n, f"{est}_mde"] / 2.8)
+            p_eq = tost(e_, se_c)
+            lab = ("reset (equivalent to zero)" if p_eq < 0.05 else
+                   ("residue" if e_ > 0 else "undershoot") if a1.loc[n, f"{est}_ri_p"] < 0.05 else "inconclusive")
+            ex.append({"outcome": n, "estimand": est, "estimate": e_, "se_model": se_, "se_calibrated": se_c,
+                       "p_ri": a1.loc[n, f"{est}_ri_p"], "p_tost_calibrated": p_eq, "label_unadjusted": lab})
+    pd.DataFrame(ex).to_csv(res / "exploratory_vs_baseline.csv", index=False)
     hyp.to_csv(res / "hypotheses.csv", index=False)
 
     meta = {"anchor_used": anchor, "anchor_validity_impact": av_est, "anchor_validity_p": pz(av_est, av_se),
