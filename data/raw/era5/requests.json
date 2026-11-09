@@ -1,6 +1,6 @@
 {
  "era5_tmax_uk_2016_04-10": {
-  "request_id": "a82c0d3d-a1a0-44af-8140-585770a58aff",
+  "request_id": "4250fdf3-aa4a-46a6-aa06-ab66040a103c",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -59,10 +59,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:32Z"
+  "submitted_utc": "2026-11-09T14:37:42Z",
+  "downloaded_utc": "2026-11-09T14:49:50Z",
+  "sha256": "f34cc6e58d3ef03069498aa4d7f74870a89c1bb636fba82e7d0c75abaca22811"
  },
  "era5_tmax_uk_2017_04-10": {
-  "request_id": "caf13bc7-e2ad-4343-8a49-35f03607a6fa",
+  "request_id": "ad4b3442-c6f5-4f00-94a4-5552cb61625a",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -121,10 +123,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:34Z"
+  "submitted_utc": "2026-11-09T14:37:42Z",
+  "downloaded_utc": "2026-11-09T23:50:43Z",
+  "sha256": "7226876ec85988a1a874fe200b3949cb4186bb2c1e10bbb325ad0e58644d5de5"
  },
  "era5_tmax_uk_2018_04-10": {
-  "request_id": "4f05cc62-4f40-4635-a9a2-9ba9ebe3583e",
+  "request_id": "d6a3a6f8-489c-4711-9205-60aecd28fa69",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -183,10 +187,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:34Z"
+  "submitted_utc": "2026-11-09T14:37:43Z",
+  "downloaded_utc": "2026-11-09T23:50:45Z",
+  "sha256": "20e4090cb66a9b1995980c9f14dd179b043ca094fa980e4eee86f978de7ff5e7"
  },
  "era5_tmax_uk_2019_04-10": {
-  "request_id": "c31dc15a-618e-4f44-86f9-fdce7c3adfd1",
+  "request_id": "a837d5de-d79d-484a-b7a5-800e3f513e7f",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -245,10 +251,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:36Z"
+  "submitted_utc": "2026-11-09T14:37:44Z",
+  "downloaded_utc": "2026-11-09T23:50:46Z",
+  "sha256": "073a01264d256c0450bfeb5a08efc33ce58c4317d210874df06df764cfbc16ff"
  },
  "era5_tmax_uk_2020_04-10": {
-  "request_id": "c391a0a0-e3c1-49e3-ac94-43552afcff21",
+  "request_id": "545e4355-f744-46f0-aa59-738885bc58d2",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -307,10 +315,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:37Z"
+  "submitted_utc": "2026-11-09T14:37:45Z",
+  "downloaded_utc": "2026-11-09T23:50:48Z",
+  "sha256": "c90ae81f05c15d02dfe160dd777aad7600bf3eb1f9a209b81dd2b4783450b7c1"
  },
  "era5_tmax_uk_2021_04-10": {
-  "request_id": "beb98635-fd8e-4d07-97a5-79f20bef4073",
+  "request_id": "32b63ece-0a90-4968-8d86-6f9c6333c314",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -369,10 +379,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:38Z"
+  "submitted_utc": "2026-11-09T14:37:45Z",
+  "downloaded_utc": "2026-11-09T14:46:35Z",
+  "sha256": "e6b7f6d6f7f0c235925d3e0ed847beb7f2c795f2b3f6fa8c4ed0f5d34748e970"
  },
  "era5_tmax_uk_2022_04-10": {
-  "request_id": "7d67e149-ce76-4d2b-9bd9-71ff3358bae4",
+  "request_id": "f47db54f-9bb1-4dbd-af73-76a041280311",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -431,10 +443,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:38Z"
+  "submitted_utc": "2026-11-09T14:37:46Z",
+  "downloaded_utc": "2026-11-09T14:46:38Z",
+  "sha256": "6d505e6bb008fc13ae605dc6897ac1a71f6c3e329025860cdbb857d3f6b45a3c"
  },
  "era5_tmax_uk_2023_04-10": {
-  "request_id": "a7a710ef-8068-4231-a0d7-55bcf2129150",
+  "request_id": "6d1d2204-323c-40d6-b09d-bdafc102cade",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -493,10 +507,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:39Z"
+  "submitted_utc": "2026-11-09T14:37:46Z",
+  "downloaded_utc": "2026-11-09T14:46:41Z",
+  "sha256": "6acd650336b7a6f04fae29aa7c94c7d836435527a5c0f31be6f12608cc064004"
  },
  "era5_tmax_uk_2024_04-10": {
-  "request_id": "0311f3cd-fa23-44ab-afda-b158a9f1e9f7",
+  "request_id": "87e2ab89-71d8-4dcb-9ab4-f52e24946f35",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -555,10 +571,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:39Z"
+  "submitted_utc": "2026-11-09T14:37:47Z",
+  "downloaded_utc": "2026-11-09T14:46:43Z",
+  "sha256": "f53d6256aebfd8245b9b18ede0bf223ce7e52e62af305d17a40539bb30dc2d6a"
  },
  "era5_tmax_uk_2025_04-10": {
-  "request_id": "ee84ede8-90b5-4796-996c-b063e107af9a",
+  "request_id": "cc6f56d5-1da1-4cd3-8d0a-c8b3e91c8694",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -617,10 +635,12 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:40Z"
+  "submitted_utc": "2026-11-09T14:37:48Z",
+  "downloaded_utc": "2026-11-09T14:46:45Z",
+  "sha256": "f88b293b53071b875e72eb694ac31568fd3fb3c4774ac91a7dbaa14b930608c0"
  },
  "era5_tmax_uk_2026_01-10": {
-  "request_id": "2ae36f12-ee92-414d-a9b8-20d2ae27b7af",
+  "request_id": "b42c6f9f-813c-4c74-9cc1-f3d90253adda",
   "request": {
    "product_type": "reanalysis",
    "variable": [
@@ -682,6 +702,8 @@
     2
    ]
   },
-  "submitted_utc": "2026-11-06T16:38:41Z"
+  "submitted_utc": "2026-11-09T14:37:48Z",
+  "downloaded_utc": "2026-11-09T14:46:47Z",
+  "sha256": "0370059f9367548095b9ce88fe2b6ee26134b7329ac9dec148091b1aea5c8ed7"
  }
 }

@@ -1,0 +1,6 @@
+series,n_days,r,passes_rule,a,b,check_c,check_d,rmse_after_calibration_degC
+England,2140,0.9964,True,-0.1713,0.9555,0.3083,1.0391,0.361
+Scotland,2140,0.987,True,1.0743,0.887,-0.799,1.0982,0.601
+Wales,2140,0.9923,True,0.3241,0.9371,-0.0805,1.0507,0.496
+Northern Ireland,2140,0.9861,True,0.5944,0.9031,-0.1922,1.0768,0.607
+UK,2140,0.9963,True,,,,,
