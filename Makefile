@@ -9,9 +9,9 @@ HADUK   := data/raw/haduk/tasmax_hadukgrid_uk_country_day_19310101-20251231.nc
 NE      := data/raw/naturalearth/ne_10m_admin_0_map_units.zip
 DRAWS   ?= 2000
 
-.PHONY: all clean treatment outcomes analysis figures
+.PHONY: all clean treatment outcomes analysis figures paper
 
-all: figures
+all: paper
 
 data/processed/tmax_2026_era5_calibrated.csv: src/05_era5_nations.py $(wildcard data/raw/era5/era5_tmax_uk_*.nc)
 	$(PY) src/05_era5_nations.py data/raw/era5 $(NE) $(HADUK) config/population_weights.yaml data/processed
@@ -29,5 +29,10 @@ analysis: treatment outcomes
 figures: analysis
 	$(PY) src/09_figures.py data/processed results figures
 
+paper: figures
+	$(PY) src/10_paper_numbers.py data/processed results paper
+	cd paper && latexmk -pdf -interaction=nonstopmode -quiet main.tex
+
 clean:
-	rm -f data/processed/*.csv results/*.csv results/*.json figures/*.png
+	rm -f data/processed/*.csv results/*.csv results/*.json figures/*.png paper/numbers.tex paper/tab_*.tex
+	cd paper && latexmk -C
