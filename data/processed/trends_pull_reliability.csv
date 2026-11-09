@@ -1,0 +1,56 @@
+geo,term,mean_between_pull_corr,mean_sd_across_pulls
+GB,air conditioning,0.988,0.0371
+GB,car insurance,0.9755,0.0229
+GB,climate change,0.9875,0.024
+GB,global warming,0.9385,0.0286
+GB,heat pump,0.974,0.0358
+GB,heat stroke,0.9934,0.0254
+GB,heatwave,0.9958,0.029
+GB,net zero,0.9646,0.0204
+GB,plumber,0.9096,0.0343
+GB,portable air conditioner,0.9964,0.0219
+GB,recipes,0.9738,0.0226
+GB-ENG,air conditioning,0.9893,0.0354
+GB-ENG,car insurance,0.9767,0.0236
+GB-ENG,climate change,0.9844,0.0287
+GB-ENG,global warming,0.8992,0.0396
+GB-ENG,heat pump,0.9503,0.0535
+GB-ENG,heat stroke,0.9976,0.0217
+GB-ENG,heatwave,0.9955,0.0308
+GB-ENG,net zero,0.9295,0.0322
+GB-ENG,plumber,0.8549,0.0498
+GB-ENG,portable air conditioner,0.9945,0.0295
+GB-ENG,recipes,0.9748,0.0223
+GB-NIR,air conditioning,0.7669,0.2776
+GB-NIR,car insurance,0.9901,0.0176
+GB-NIR,climate change,0.7284,0.229
+GB-NIR,global warming,0.4249,0.1297
+GB-NIR,heat pump,0.6894,0.1582
+GB-NIR,heat stroke,0.8223,0.1001
+GB-NIR,heatwave,0.9378,0.1214
+GB-NIR,net zero,0.2465,0.1472
+GB-NIR,plumber,0.5385,0.1256
+GB-NIR,portable air conditioner,0.8006,0.0597
+GB-NIR,recipes,0.9866,0.0201
+GB-SCT,air conditioning,0.9553,0.0647
+GB-SCT,car insurance,0.9934,0.0139
+GB-SCT,climate change,0.9602,0.0518
+GB-SCT,global warming,0.6806,0.2132
+GB-SCT,heat pump,0.9449,0.0632
+GB-SCT,heat stroke,0.9241,0.1018
+GB-SCT,heatwave,0.9748,0.0784
+GB-SCT,net zero,0.8675,0.083
+GB-SCT,plumber,0.8085,0.0679
+GB-SCT,portable air conditioner,0.9355,0.0601
+GB-SCT,recipes,0.9894,0.015
+GB-WLS,air conditioning,0.9438,0.0973
+GB-WLS,car insurance,0.9792,0.0156
+GB-WLS,climate change,0.9391,0.0602
+GB-WLS,global warming,0.8227,0.1719
+GB-WLS,heat pump,0.9473,0.0425
+GB-WLS,heat stroke,0.9562,0.0666
+GB-WLS,heatwave,0.9754,0.0818
+GB-WLS,net zero,0.5849,0.334
+GB-WLS,plumber,0.7814,0.0599
+GB-WLS,portable air conditioner,0.9687,0.0518
+GB-WLS,recipes,0.994,0.0128

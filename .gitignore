@@ -3,8 +3,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Large or licence-restricted raw data (sources and hashes are in data/MANIFEST.csv)
-data/raw/**/*.nc
+# Raw temperature files are small and openly licensed (OGL, CC-BY), so they are committed.
 data/raw/**/*.grib
 
 # OS / editor

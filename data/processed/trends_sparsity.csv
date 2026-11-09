@@ -1,0 +1,61 @@
+geo,term,request,share_le1,passes,geo_anchor_passes
+GB,dentist,R1,0.0,True,True
+GB,heatwave,R1,0.6077,False,True
+GB,climate change,R1,0.0615,True,True
+GB,air conditioning,R1,0.2654,False,True
+GB,car insurance,R1,0.0,True,True
+GB,global warming,R2,0.5692,False,True
+GB,net zero,R2,0.0346,True,True
+GB,portable air conditioner,R2,0.7769,False,True
+GB,heat stroke,R2,0.7962,False,True
+GB,heat pump,R3,0.0,True,True
+GB,recipes,R3,0.0,True,True
+GB,plumber,R3,0.0,True,True
+GB-ENG,dentist,R1,0.0,True,True
+GB-ENG,heatwave,R1,0.6192,False,True
+GB-ENG,climate change,R1,0.0731,True,True
+GB-ENG,air conditioning,R1,0.3231,False,True
+GB-ENG,car insurance,R1,0.0,True,True
+GB-ENG,global warming,R2,0.7077,False,True
+GB-ENG,net zero,R2,0.0423,True,True
+GB-ENG,portable air conditioner,R2,0.7769,False,True
+GB-ENG,heat stroke,R2,0.8192,False,True
+GB-ENG,heat pump,R3,0.0,True,True
+GB-ENG,recipes,R3,0.0,True,True
+GB-ENG,plumber,R3,0.0,True,True
+GB-SCT,dentist,R1,0.0,True,True
+GB-SCT,heatwave,R1,0.5731,False,True
+GB-SCT,climate change,R1,0.0,True,True
+GB-SCT,air conditioning,R1,0.2808,False,True
+GB-SCT,car insurance,R1,0.0,True,True
+GB-SCT,global warming,R2,0.4923,False,True
+GB-SCT,net zero,R2,0.0269,True,True
+GB-SCT,portable air conditioner,R2,0.8615,False,True
+GB-SCT,heat stroke,R2,0.7308,False,True
+GB-SCT,heat pump,R3,0.0,True,True
+GB-SCT,recipes,R3,0.0,True,True
+GB-SCT,plumber,R3,0.0,True,True
+GB-WLS,dentist,R1,0.0,True,True
+GB-WLS,heatwave,R1,0.6115,False,True
+GB-WLS,climate change,R1,0.1385,True,True
+GB-WLS,air conditioning,R1,0.45,False,True
+GB-WLS,car insurance,R1,0.0,True,True
+GB-WLS,global warming,R2,0.4423,False,True
+GB-WLS,net zero,R2,0.2654,False,True
+GB-WLS,portable air conditioner,R2,0.8269,False,True
+GB-WLS,heat stroke,R2,0.7692,False,True
+GB-WLS,heat pump,R3,0.0,True,True
+GB-WLS,recipes,R3,0.0,True,True
+GB-WLS,plumber,R3,0.0,True,True
+GB-NIR,dentist,R1,0.0,True,True
+GB-NIR,heatwave,R1,0.5577,False,True
+GB-NIR,climate change,R1,0.1077,True,True
+GB-NIR,air conditioning,R1,0.3308,False,True
+GB-NIR,car insurance,R1,0.0,True,True
+GB-NIR,global warming,R2,0.8923,False,True
+GB-NIR,net zero,R2,0.8923,False,True
+GB-NIR,portable air conditioner,R2,0.9423,False,True
+GB-NIR,heat stroke,R2,0.8769,False,True
+GB-NIR,heat pump,R3,0.0115,True,True
+GB-NIR,recipes,R3,0.0,True,True
+GB-NIR,plumber,R3,0.0,True,True
