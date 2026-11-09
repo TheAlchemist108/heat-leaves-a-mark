@@ -7,8 +7,11 @@ For each series (England, Scotland, Wales, Northern Ireland, and a population-we
   - onset week / end week = Sunday-Saturday week containing the first / last heatwave day of an episode
   - weekly heat dose = sum over the week's days of max(0, Tmax - T*), in degree-days
 
+2026 is not yet in HadUK-Grid; if a calibrated ERA5 file is given (src/05_era5_nations.py), its
+values are appended after the last HadUK-Grid day. Thresholds always come from HadUK-Grid 1991-2020.
+
 Usage:
-  python src/01_heat_treatment.py <haduk_country_tasmax.nc> <population_weights.yaml> <out_dir>
+  python src/01_heat_treatment.py <haduk_country_tasmax.nc> <population_weights.yaml> <out_dir> [tmax_2026_era5_calibrated.csv]
 """
 import sys
 from pathlib import Path
@@ -26,13 +29,16 @@ MERGE_GAP = 13  # max non-heatwave days between spells that still merge (fewer t
 SAMPLE_START = "2021-11-07"  # first Sunday of the primary sample (Section 3)
 
 
-def load_series(nc_path, weights):
+def load_series(nc_path, weights, ext_path=None):
     ds = xr.open_dataset(nc_path)
     names = [g.decode().strip() for g in ds.geo_region.values]
     df = ds.tasmax.to_pandas()
     df.columns = names
     df.index = pd.to_datetime(df.index).normalize()
     df = df[list(NATIONS)]
+    if ext_path:
+        ext = pd.read_csv(ext_path, index_col="date", parse_dates=True)[list(NATIONS)]
+        df = pd.concat([df, ext[ext.index > df.index.max()]])
     w = pd.Series({n: weights[n] for n in NATIONS}, dtype=float)
     df["UK"] = (df[list(NATIONS)] * w).sum(axis=1, min_count=4) / w.sum()
     return df
@@ -76,11 +82,11 @@ def episodes(hw_days):
     return eps
 
 
-def main(nc_path, weights_path, out_dir):
+def main(nc_path, weights_path, out_dir, ext_path=None):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     weights = yaml.safe_load(open(weights_path))["population"]
-    tmax = load_series(nc_path, weights)
+    tmax = load_series(nc_path, weights, ext_path)
 
     if tmax.isnull().any().any():
         missing = tmax.isnull().sum()
@@ -133,4 +139,4 @@ def main(nc_path, weights_path, out_dir):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])
