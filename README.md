@@ -28,6 +28,16 @@ season ──► heat ──► attention ◄── year
             └─► news ───┘      (mediator, not controlled)
 ```
 
+## Results in brief
+
+Full paper: [`paper/main.pdf`](paper/main.pdf). Nine UK heatwaves, 2022–2026.
+
+- **A one-week spike.** In the week a heatwave begins, UK searches for "heatwave" rise by about 86% (randomisation p = 0.012), coping searches by about 97% and climate-concern searches by about 35%.
+- **Then a reset.** All three are back within the placebo range by the following week, and two to three months later none differs from normal levels.
+- **Limits, reported in full.** With nine events the pre-registered standard errors are too small, so inference uses placebo dates; no hypothesis passes the calibrated tests after correction for seven hypotheses; and shifting heatwave dates by a year produces effects as large as the real ones for coping and concern searches. The salience ("heatwave") spike is the most robust result.
+
+![Event-study estimates](figures/fig2_event_study_dev2.png)
+
 ## Pre-registration
 
 The full analysis plan is in [`PREREGISTRATION.md`](PREREGISTRATION.md). It was the first commit of this repository and is tagged [`v0.1-prereg`](../../releases/tag/v0.1-prereg), before any outcome data were downloaded. Any later change is logged in [`docs/DEVIATIONS.md`](docs/DEVIATIONS.md), each committed before the analysis it affects was run:
@@ -47,8 +57,8 @@ What was analysed before the plan was written is described in [`docs/PRIOR_EXPLO
 | Temperature data and heatwave rule | 2021–2025 done (HadUK-Grid); 2026 from ERA5 (calibrated to HadUK-Grid, r = 0.986–0.996) |
 | Google Trends pulls (3 days) | Pull 1 done (6 Nov, 15:13–15:58 UTC); pull 2 done (9 Nov, 14:38–14:46 UTC); pull 3 done (10 Nov, 10:55–11:03 UTC; see deviation 1) |
 | Wikipedia pageviews | Done (UK-only and global) |
-| Analyses 1 and 2, placebos | Code done (`src/06`–`src/09`); final run after pull 3 |
-| Paper | Not started |
+| Analyses 1 and 2, placebos | Done (10 Nov 2026, all three pulls) |
+| Paper | Draft done: [`paper/main.pdf`](paper/main.pdf) |
 
 ## Repository layout
 

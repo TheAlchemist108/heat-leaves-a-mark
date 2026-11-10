@@ -1,0 +1,9 @@
+rule,family,window,floor_share
+plan,concern,decay,0.0
+plan,concern,residue,0.0
+dev2,salience,decay,0.15555555555555556
+dev2,salience,residue,0.4
+dev2,coping,decay,0.28888888888888886
+dev2,coping,residue,0.4666666666666666
+dev2,concern,decay,0.007407407407407407
+dev2,concern,residue,0.009523809523809523

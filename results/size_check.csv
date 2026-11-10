@@ -1,0 +1,5 @@
+test,n_sims,rejection_rate_5pct,sd_of_z
+A1 impact (Newey-West),500,0.158,1.4227380300542607
+A1 decay (Newey-West),500,0.148,1.4573466514010636
+A1 residue (Newey-West),500,0.148,1.437814681297128
+A2 short-run (Driscoll-Kraay),500,0.19,1.5237876940025343

@@ -1,0 +1,26 @@
+{
+ "anchor_used": "dentist",
+ "anchor_validity_impact": 0.015531681880837991,
+ "anchor_validity_p": 0.5657510598570921,
+ "n_insample_onsets": 9,
+ "insample_onsets": [
+  "2022-07-17",
+  "2022-08-07",
+  "2023-06-04",
+  "2023-09-03",
+  "2025-06-15",
+  "2025-07-06",
+  "2025-08-10",
+  "2026-06-21",
+  "2026-08-09"
+ ],
+ "placebo_pool_weeks": 66,
+ "n_draws": 2000,
+ "seed": 20261105,
+ "pulls": [
+  "pull1",
+  "pull2",
+  "pull3"
+ ],
+ "dropped_concurrent_weeks": 18
+}
