@@ -44,8 +44,8 @@ What was analysed before the plan was written is described in [`docs/PRIOR_EXPLO
 |---|---|
 | Pre-analysis plan | Done (5 Nov 2026) |
 | Configuration (event dates, concurrent events) | Done (5 Nov 2026) |
-| Temperature data and heatwave rule | 2021–2025 done (HadUK-Grid); 2026 from ERA5, calibration years downloading |
-| Google Trends pulls (3 days) | Pull 1 done (6 Nov, 15:13–15:58 UTC); pull 2 done (9 Nov, 14:38–14:46 UTC); pull 3 planned 10 Nov (see deviation 1) |
+| Temperature data and heatwave rule | 2021–2025 done (HadUK-Grid); 2026 from ERA5 (calibrated to HadUK-Grid, r = 0.986–0.996) |
+| Google Trends pulls (3 days) | Pull 1 done (6 Nov, 15:13–15:58 UTC); pull 2 done (9 Nov, 14:38–14:46 UTC); pull 3 done (10 Nov, 10:55–11:03 UTC; see deviation 1) |
 | Wikipedia pageviews | Done (UK-only and global) |
 | Analyses 1 and 2, placebos | Code done (`src/06`–`src/09`); final run after pull 3 |
 | Paper | Not started |
