@@ -18,7 +18,7 @@ stat.AP (Statistics: Applications)
 7 pages, 2 figures, 2 tables. Pre-registered; analysis plan, deviation log, data and code: https://github.com/TheAlchemist108/heat-leaves-a-mark
 
 **Licence**
-CC BY 4.0
+arXiv.org perpetual, non-exclusive license (arXiv's default). Keeps all rights with the author, so a journal can later publish under its own terms. A licence cannot be changed for a version once it is posted.
 
 **Abstract** (plain text, 1,307 characters)
 
